@@ -1,4 +1,4 @@
-const db = require("../models")
+const db = require("../models");
 const router = require("express").Router();
 
 router.get("/api/workouts/range", (req, res) => {
@@ -20,11 +20,7 @@ router.get("/api/workouts", (req, res) => {
         res.json(err);
       });
 });
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//non working route
 router.post("/api/workouts", (req, res) => {
-    console.log("working?");
-    console.log(req.body);
     db.Workout.create(req.body)
       .then(dbWorkout => {
           console.log(dbWorkout);
