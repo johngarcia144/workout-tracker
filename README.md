@@ -4,9 +4,8 @@
   ## Description
     Workout Tracker is an applicaiton that allows you to keep track of and add workouts to an online database. The applicaiton uses MongoDB, mongoose, moran, and express to dynamically update data. 
 
-    Application Link: https://fitness-tracker-jg.herokuapp.com/<br>Github Link: https://github.com/johngarcia144/workout-tracker
-
   ## Table of Contents
+  - [Links](#links)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -14,6 +13,9 @@
   - [Contributors](#contributors)
   - [Details](#details)
 
+  ## Links
+  Application Link: https://fitness-tracker-jg.herokuapp.com/<br>Github Link: https://github.com/johngarcia144/workout-tracker
+  
   ## Installation
   Packages required to run this program are: npm i, npm mongoose, npm express, npm moran
   
